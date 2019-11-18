@@ -171,21 +171,20 @@ mark {
 }
 
 /* 代码片断 */
-pre, code, pre tt {
-  font-family: "Source Code Pro",Helvetica Neue,Helvetica,PingFang;
-  background-color: #f8f8f8;
-  padding: 0 1em;
-  font-size: 0.875em;
-}
+pre
+  padding: 1rem !important
+  overflow: auto
 
-pre {
-  background: #f8f8f8;
-  padding: 1em 1.5em;
-  font-size: 0.875em;
-  line-height: 1.5;
-  display: block;
-  -webkit-overflow-scrolling: touch;
-}
+pre code 
+  white-space: pre;  /* this code line alone can make code block to slide in Chrome */
+  word-wrap: normal; /* add this line to make code block to slide in Safari */
+  overflow: visible;
+  word-break: normal;
+  padding: 0;
+
+.prettyprint
+  line-height: 1.5rem
+  border-radius: 5px
 
 
 /* 一致化 horizontal rule */

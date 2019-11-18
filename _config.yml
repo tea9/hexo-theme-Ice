@@ -11,28 +11,31 @@ rss: /atom.xml
  
 ## 网站公告设置
 notification: |-
-            <p>主题Ice V1.0 版本已经上线！欢迎使用~ <br/>
-            主题下载：<a href="https://github.com/praming/hexo-theme-Ice" title="fork me" target="_blank">Ice 主题</a>&nbsp;&nbsp;&nbsp;&nbsp;详细的使用文档请点击:<a href="https://github.com/praming/hexo-theme-Ice" title="fork me" target="_blank">使用说明</a>.<br/>
-            <hr/>接受贡献，包括不限于提交问题与需求，修复代码。接受贡献，包括不限于提交问题与需求，修复代码欢迎Pull Request<br/>支持主题：<a href="https://github.com/praming/hexo-theme-Ice/stargazers"  target="_blank">Star一下</a>
+            <p>hello
             </p>
 
 ## 社交设置
 social:
  - name: Github
    icon: '&#xeee2;'
-   href: //github.com/praming
- - name: 邮箱
-   icon: '&#xe69f;'
-   href: mailto:i@praming.cn
- - name: 微信
-   icon: '&#xe7e5;'
-   href: 34721974
- - name: 微博
-   icon: '&#xe629;'
-   href: //weibo.com/praming
+   href: //github.com/tea9
+ # - name: 邮箱
+ #   icon: '&#xe69f;'
+ #   href: mailto:i@praming.cn
+ # - name: 微信
+ #   icon: '&#xe7e5;'
+ #   href: 34721974
+ # - name: 微博
+ #   icon: '&#xe629;'
+ #   href: //weibo.com/praming
  - name: RSS
    icon: '&#xe6ee;'
    href: /atom.xml
+
+highlight: # 代码高亮
+  enable: true
+  line_number: true # 显示代码行号
+  theme: atelier-savanna-light # available: atelier-cave-light | atelier-savanna-light | tomorrow | tomorrow-night-eighties，更多主题可从 https://jmblog.github.io/color-themes-for-google-code-prettify/ 获取，保存为 `*.min.css` 到 `source/css/highlight/`
 
 # add post views
 leancloud_visitors:
@@ -69,7 +72,7 @@ disqus:
 
 ### 畅言评论(需要ICP备案)
 changyan:
-  enable: true
+  enable: false
   appid: cytsbYV5p
   conf: prod_5db6bea920c9a0d149cedeab44860234
   
@@ -94,7 +97,7 @@ valine:
 cnzz_analytics:
 
 ### 百度统计
-baidu_analytics: 1d283676d7e81d10054b06f70a90decf
+baidu_analytics: 
 
 ### 谷歌统计
 google_analytics: 
@@ -106,13 +109,145 @@ tencent_analytics:
 baidu_push:
 
 ## ICP备案号:
-icp: 豫ICP备10206454号-2
+icp: <a href="/v1">v1</a> . <a href="/v2">v2</a>
 
 ## 开启Hosted by Coding Pages标识
-coding_pages: true
+coding_pages: false
 
 ## 友链设置
-links:
-  - 个人博客: http://www.shenliyang.com
-  
+links: [
+    {
+        title: "tea9",
+        href: "https://tea9.github.io"
+    },{
+        title: "Miracles",
+        href: "https://miracles666.github.io"
+    },{
+        title: "童年是个风筝的博客",
+        href: "https://www.zhangqirun.cn"
+    },{
+        title: "文科中的技术宅",
+        href: "https://townwang.com"
+    },{
+        title: "耀日庄主的博客",
+        href: "https://sunbossrs.github.io"
+    # },{
+    #     title: "量子",
+    #     href: "https://www.pdcblog.tk"
+    },{
+        title: "pdcgame",
+        href: "https://www.pdcgame.com"
+    },{
+        title: "gloomyghost",
+        href: "http://gloomyghost.com/"
+    },{
+        title: "FGHRSH",
+        href: "https://www.fghrsh.net"
+    },{
+        title: "藤の青",
+        href: "https://a632079.me"
+    },{
+        title: "幸运草",
+        href: "https://www.vseu.com/"
+    },{
+        title: "诗与酒",
+        href: "https://shawnzeng.com/"
+    },{
+        title: "NekoHome 喵窝",
+        href: "https://nekohome.moenya.cat"
+    },{
+        title: "清酒踏月",
+        href: "https://www.lkxin.cn"
+    },{
+        title: "冰峰博客",
+        href: "http://www.ad-s.cn/"
+    # },{
+    #     title: "以梦为马，奔向远方",
+    #     href: "https://linhai1990.com"
+    # },{ 访问不了了
+    #     title: "终南小筑",
+    #     href: "https://www.cnliuqi.com"
+    },{
+        title: "Unique",
+        href: "http://login546.xyz"
+    },{
+        title: "雨落泪尽",
+        href: "https://1000yun.cn/"
+    },{
+        title: "Laugh's Blog",
+        href: "https://laugh12321.github.io"
+    },{
+        title: "ShaoZhi's Blog",
+        href: "https://shaozhi.site"
+    },{
+        title: "Xiang Xiz",
+        href: "https://www.xiz.im"
+    },{
+        title: "lan酱的小窝",
+        href: "https://www.xx8.uk"
+    },{
+        title: "Casey",
+        href: "https://www.ckbug.com"
+    },{
+        title: "星夜的蓝天",
+        href: "http://poi.ac/"
+    },{
+        title: "俍注",
+        href: "http://www.oneinf.com"
+    },{
+        title: "暗羽表姐",
+        href: "https://darkwing.moe/"
+    },{
+        title: "ju5tw4nty0u",
+        href: "http://ju5tw4nty0u.top/"
+    },{
+        title: "如鱼说|仓鼠的博客",
+        href: "http://www.itfire.cn"
+    },{
+        title: "k0rz3n",
+        href: "https://www.k0rz3n.com/"
+    },{
+        title: "月宅酱",
+        href: "http://ikmoe.com/"
+    },{
+        title: "七夏浅笑",
+        href: " https://www.julydate.com"
+    },{
+        title: "咸鱼滩音乐团队",
+        href: "https://www.xytsing.com"
+    # },{
+    #     title: "尝精阁大湿胸",
+    #     href: "www.yppcat.top"
+    },{
+      title: "sakura",
+      href: "http://eternalsakura13.com/"
+    },{
+      title: "y00",
+      href: "https://snowflowersnowflake.github.io/"
+    },{
+      title: "楼兰",
+      href: "http://www.teagle.top/"
+    },{
+      title: "林晨",
+      href: "https://0chencc.github.io"
+    },{
+      title: "Xenc",
+      href: "http://console-log.cn/"
+    },{
+      title: "华强",
+      href: "https://cybersecur1ty.github.io/"
+    },{
+      title: "secES",
+      href: "https://blog.csdn.net/zcj_1996"
+    },{
+      title: "奶茶姐姐",
+      href: "https://milktea.info"
+    },{
+      title: "blad",
+      href: "https://evil-of-blad.github.io/"
+    },{
+      title: "夏风",
+      href: "https://blog.xiafeng2333.top/"
+    }
 
+]

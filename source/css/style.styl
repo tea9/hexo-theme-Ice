@@ -87,21 +87,27 @@ hr.two{
 /*浏览器宽度小于767px*/
 @media only screen and (max-width:767px){
 	.container{margin: 0 10px;}
-	.toc{display:none}
+	.box-tags li{width: 40%;}
+	.box-links li{width: 35%;}
+  #live2d-widget{display:none}
 }
 /*浏览器宽度大于768px,小于1023px*/
 @media only screen and (min-width:768px) and (max-width:1023px){
 	.container{margin: 0 10px;}
-	.toc{display:none}
+	.box-tags li{width: 20%;}
+	.box-links li{width: 24%;}
 }
 /*浏览器宽度大于1024px,小于1199px*/
 @media only screen and (min-width:1024px) and (max-width:1199px){
 	.container{width: 950px;}
-	.toc{display:none}
+	.box-tags li{width: 12%;}
+	.box-links li{width: 16%;}
 }
 /*浏览器宽度大于1200px*/
 @media only screen and (min-width:1200px){
 	.container {width: 950px;}
+	.box-tags li{width: 12%;}
+	.box-links li{width: 20%;}
 }
 
 @import "_partial/main";
@@ -110,3 +116,5 @@ hr.two{
 @import "_partial/post";
 @import "_partial/archive";
 @import "_partial/footer";
+@import "_partial/search";
+@import "_partial/links";

@@ -12,7 +12,11 @@
     <meta name="screen-orientation" content="portrait">
     <link rel="dns-prefetch" href="<%= config.url%>">
   	<%- css('css/style.css') %>
-  	<%- css('css/github-gist.css') %>
+    <%- css('css/github-gist.css') %>
+    <% if(theme.highlight.enable){ %>
+      <%- css('css/prettify.css') %>
+      <%- css('css/highlight/' + theme.highlight.theme + '.min.css') %>
+    <% } %>
     <%- partial('_head-sections/seo') %>
     <%- partial('_head-sections/title') %>
     <%- partial('_vendor/analytics/index') %>

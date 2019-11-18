@@ -12,7 +12,13 @@
 	      <% } %>
 	      	<li class="menu-item">
 	          <a href="/about" class="menu-item-link nav-underline">关于</a>
-	        </li>
+			</li>
+		  <% if(config.search.enable){ %>
+			&sdot;
+			<li class="menu-item">
+				<a href="/search" class="menu-item-link nav-underline">搜索</a>
+			</li>
+		  <% } %>
 	    </ul>
 	  </nav>
 	</header>
