@@ -1,8 +1,9 @@
 # hexo-theme-Ice
-[点击查看演示](http://praming.cn)
+[点击查看演示](https://tea9.xyz/)
 ![](http://img.gukong.net/hexo-theme-ice.png)
 
 ---
+
 
 ## 使用:
 

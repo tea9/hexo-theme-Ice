@@ -11,8 +11,10 @@ rss: /atom.xml
  
 ## 网站公告设置
 notification: |-
-            <p>hello
+            <p>
             </p>
+            <p><script type="text/javascript" src="https://api.uixsj.cn/hitokoto/w.php?code=js"></script><div id="xsjhitokoto"><script>xsjhitokoto()</script></div></p>
+
 
 ## 社交设置
 social:
@@ -120,8 +122,8 @@ links: [
         title: "tea9",
         href: "https://tea9.github.io"
     },{
-        title: "Miracles",
-        href: "https://miracles666.github.io"
+        title: "七夏浅笑",
+        href: " https://www.julydate.com"
     },{
         title: "童年是个风筝的博客",
         href: "https://www.zhangqirun.cn"
@@ -210,8 +212,8 @@ links: [
         title: "月宅酱",
         href: "http://ikmoe.com/"
     },{
-        title: "七夏浅笑",
-        href: " https://www.julydate.com"
+        title: "Miracles",
+        href: "https://miracles666.github.io"
     },{
         title: "咸鱼滩音乐团队",
         href: "https://www.xytsing.com"
@@ -248,6 +250,18 @@ links: [
     },{
       title: "夏风",
       href: "https://blog.xiafeng2333.top/"
+    },{
+      title: "Catsay",
+      href: "https://www.hackpwn.xyz/"
+    },{
+      title: "osword",
+      href: "https://zhzhdoai.github.io/"
+    },{
+      title: "wing",
+      href: "https://evilwing.me/"
+    },{
+      title: "筱一",
+      href: "https://www.xynh.ink/"
     }
 
 ]
